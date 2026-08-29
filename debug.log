@@ -1,0 +1,2 @@
+[0820/224202.116:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: O sistema não pode encontrar o arquivo especificado. (0x2)
+[0820/224202.518:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: O sistema não pode encontrar o arquivo especificado. (0x2)
