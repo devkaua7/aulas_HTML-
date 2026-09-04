@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1>Formulário HTML</h1>
+
+    <hr />
+
+    <!-- colacar o nome -->
+
+    <label>
+      <label for="nome">Nome:</label>
+      <input type="text" name="" id="nome" placeholder="Ex: Roberto Carlos" />
+      <br /><br />
+
+      <!-- colocar email -->
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        name=""
+        placeholder="exemplo@exemplo.com.br"
+      />
+      <br />
+      <br />
+
+      <!--  colocar senhas  -->
+      <label for="senha">senha</label>
+      <input
+        type="password"
+        name=""
+        id="senha"
+        password="Digite sua senha"
+      /><br /><br />
+
+      <!-- selecione seu generos  -->
+      <label for="">Gênero: </label><br />
+
+      <!-- genero masculino  -->
+      <input type="radio" name="genero" id="masculino" value="masculino" />
+      <label for="">Maculino</label><br />
+
+      <!-- genero Feminino -->
+      <input type="radio" name="genero" id="Feminino" value="Feminino" />
+      <label for="">Feminino</label><br />
+
+      <!-- outros generos  -->
+      <input type="radio" name="genero" id="outros" value="Outros" />
+      <label for="">Outros</label><br /> <br>
+
+      <span>Estilo Musical:</span><br>
+      <input type="checkbox" name="estilomusical" id="estiloMusicalpop" value="pop"/>
+      <label for="estiloMusicalpop">Pop</label><br>
+
+
+      <input type="checkbox" name="estilomusical" id="estiloMusicalRock" value="Rock"> 
+      <label for="estiloMusicalRock">Rock</label><br>
+
+     
+      <input type="checkbox" name="estilomusical" id="estiloMusicalGospel" value="Gospel"> 
+      <label for="estiloMusicalGospel">Gospel</label><br>
+
+
+      <input type="checkbox" name="estilomusical" id="estiloMusicalSamba" value="Samba"> 
+      <label for="estiloMusicalSamba">Samba</label><br>
+
+
+      <input type="checkbox" name="estilomusical" id="estiloMusicalModadeViola" value="ModadeViola">
+      <label for="estiloMusicalModadeViola">Moda de Viola</label><br><br>
+
+
+      <label for="descricaoId">Descrição:</label><br>
+       <textarea name="descricao" id="descricao" placeholder="digite uma Descrição"></textarea> <br> <br>
+
+       <label for="">Selecione um Estado</label>
+       <select name="estados" id="estados"> <option value="SP">São Paulo</option>  <option value="RS">Rio Grade do Sul</option>
+        <option value="MG">Minas Gerais</option> <option value="RJ">Rio de Janeiro</option> 
+      <select/><br><br>
+
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label for="nomecompletoId">Nome completo</label>
+        <input type="text" name="nomecompleto" id="nomecompletoId"><br>
+
+        <label for="cpfId">CPF</label>
+        <input type="text" name="cpf" id="cpfId"><br>
+
+        <label for="datadeNacimentoId">Data de Nacimento</label>
+        <input type="date" name="datadeNacimento" id="datadeNacimentoId"><br>
+
+
+      </fieldset>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
